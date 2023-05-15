@@ -1,5 +1,5 @@
 import React from "react";
-import { RiMenu3Line, RiCloseLin } from "react-icons/ri";
+// import { RiMenu3Line, RiCloseLin } from "react-icons/ri";
 import { styled } from "styled-components";
 import logo from "../../assets/logo.svg";
 
