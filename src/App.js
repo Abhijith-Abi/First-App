@@ -1,6 +1,6 @@
 import React from "react";
 import { Article, Brand } from "./components";
-import { Blog, Features } from "./containers";
+import { Blog } from "./containers";
 import { styled } from "styled-components";
 
 function App() {
