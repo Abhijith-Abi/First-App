@@ -1,20 +1,36 @@
 import React from "react";
-import { Article, Brand } from "./components";
-import { Blog } from "./containers";
+import "./App.css";
+import { Cta, Brand, Navbar } from "./components";
+import {
+    Blog,
+    Footer,
+    Features,
+    Header,
+    Possibility,
+    WhatFirstApp,
+} from "./containers";
 import { styled } from "styled-components";
 
 function App() {
     return (
-        <Main>
-            <Article />
+        <MainContainer>
+            <Container className="gradient__bg">
+                <Navbar />
+                <Header />
+            </Container>
             <Brand />
+            <WhatFirstApp />
+            <Features />
+            <Possibility />
+            <Cta />
             <Blog />
-        </Main>
+            <Footer />
+        </MainContainer>
     );
 }
 
 export default App;
 
-const Main = styled.div`
-    padding: 20px;
-`;
+const MainContainer = styled.div``;
+
+const Container = styled.div``;
