@@ -1,7 +1,14 @@
 import React from "react";
+import Article from "./components/article/Article";
+import Brand from "./components/brand/Brand";
 
 function App() {
-    return <div>App</div>;
+    return (
+        <>
+            <Article />
+            <Brand />
+        </>
+    );
 }
 
 export default App;
